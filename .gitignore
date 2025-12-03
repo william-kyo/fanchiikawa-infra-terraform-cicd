@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate*
+
+
+# sensitive files
+/terraform.tfvars
+
+
+# IDE
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+modules/.DS_Store
+
+# Backup files
+*.backup
+terraform-state-backup.json
